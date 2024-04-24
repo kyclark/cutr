@@ -341,6 +341,7 @@ fn repeated_value() -> Result<()> {
     run(&[BOOKS, "-c", "1,1"], "tests/expected/books.c1,1.out")
 }
 
+// --------------------------------------------------
 #[test]
 fn output_delimiter() -> Result<()> {
     run(
